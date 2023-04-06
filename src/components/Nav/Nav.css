@@ -1,0 +1,33 @@
+*{
+    max-width: 100%;
+}
+.navbar{
+    width: auto;
+  height: 100px;
+  background: #21325e;
+  display: block;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+.links{
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 25px;
+}
+.link{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.prompt svg {
+    font-size: 40px;
+    margin: 10px;
+    color: white;
+  }
+  .prompt {
+    width: 50%;
+    font-size: 30px;
+    margin-right: auto;
+    margin-left: auto;
+  }

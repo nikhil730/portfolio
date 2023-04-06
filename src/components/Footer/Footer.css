@@ -1,0 +1,40 @@
+.footer{
+    bottom: 0;
+    width: 100%;
+    height: 125px;
+    background: #21325e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+.socialMedia svg {
+    color: white;
+    margin: 20px;
+    font-size: 50px;
+    cursor: pointer;
+  }
+  
+  .footer p {
+    color: white;
+  }
+  /* @media only screen and (max-width: 767px){
+    footer {
+        position: static;
+        bottom: 0;
+        width: 100%;
+      height: 125px;
+      background: #21325e;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding-top: 10px;
+      margin-top: 10px;
+    }
+} */
+.name{
+  margin-top: 0;
+}
