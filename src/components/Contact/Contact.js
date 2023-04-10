@@ -52,6 +52,7 @@ const Contact = () => {
     <div className="contact">
       <Form onSubmit={handleOnSubmit}>
         <Form.Field
+          className="email"
           id="form-input-control-email"
           control={Input}
           label="Email"
@@ -65,6 +66,7 @@ const Contact = () => {
           }}
         />
         <Form.Field
+          className="name"
           id="form-input-control-last-name"
           control={Input}
           label="Name"
@@ -78,6 +80,7 @@ const Contact = () => {
           }}
         />
         <Form.Field
+          className="message"
           id="form-textarea-control-opinion"
           control={TextArea}
           label="Message"
@@ -88,7 +91,7 @@ const Contact = () => {
             setMessage(e.target.value);
           }}
         />
-        <Button type="submit" color="green">
+        <Button className="btn" type="submit" color="green">
           Submit
         </Button>
       </Form>
