@@ -16,14 +16,26 @@
     margin-left: auto;
     font-size: 25px;
 }
+.resume{
+  margin-right: 15px;
+  display: inline;
+  position: absolute;
+  right: 0;
+}
 .link{
     margin-left: 10px;
     margin-right: 10px;
 }
 .prompt svg {
-    font-size: 40px;
+    font-size: 45px;
     margin: 10px;
     color: white;
+    transition: font-size 0.5s;
+    transition: color 1s;
+  }
+  svg:hover{
+    font-size: 50px;
+    color: gold;
   }
   .prompt {
     width: 50%;

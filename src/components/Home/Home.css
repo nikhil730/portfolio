@@ -14,7 +14,8 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #21325e;
+    /* background-color: #21325e; */
+    background-image: linear-gradient(360deg, #f0f0f0, #21325e);
     color: #f0f0f0;
   }
   
