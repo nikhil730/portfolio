@@ -16,7 +16,6 @@ const Nav = () => {
       "https://drive.google.com/file/d/1xRz65utyOq50thkZlo6OTR5XCRdUfpko/view?usp=share_link"
     );
   };
-  console.log("here");
   return (
     <div className="navbar">
       <div className="links">

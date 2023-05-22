@@ -1,30 +1,48 @@
 .contact{
     flex: 1;
     text-align: center;
-    max-width: 300px;
+    max-width: 350px;
     margin: 0px auto;
     padding: 30px;
     text-align: center;
 }
-
-  
-  Form {
+.heading{
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  font-size: large;
+  background-image: linear-gradient(246deg, white,#3f51b5);
+  border-radius: 10px 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  padding: 8px;
+}
+  .form {
     border: 1px solid lightgray;
+    box-shadow: 5px 5px 6px;
     border-radius: 10px;
     padding: 40px;
   }
   .name{
 margin-top: 10px;
   }
-  .email{
-    background-color: black;
-  }
   .message{
-    margin-top: 16px;
+    margin-top: 20px;
+  }
+  .msg{
+    margin-top: 10px;
   }
   .btn{
     margin-top: 10px;
     color: white;
     background-color: #21325e;
     border-radius: 5px;
+    font-size: 15px;
+    padding: 4px;
+  }
+  .label{
+    color: white;
+    background-color: #21325e;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 10px;
   }
