@@ -4,9 +4,9 @@ import todolist from "../../assets/todolist.png";
 
 export const ProjectList = [
   {
-    name: "Dijkstra Algorithm Visualizer",
+    name: "YourSpace (Notepade)",
     image: Proj1,
-    skills: "JavaScript,HTML,CSS",
+    skills: "React, HTML, CSS",
     github: "",
     link: "",
   },
