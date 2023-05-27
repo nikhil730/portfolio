@@ -26,7 +26,6 @@
     height: 50px;
     margin-top: 40px;
   }
-  
   .about .prompt {
     width: 40%;
     font-size: 30px;
@@ -36,9 +35,22 @@
     margin: 5px;
     color: white;
   } */
-  
+  .grid{
+    display: flex;
+  }
+  .item{
+    box-shadow: 5px 5px 5px grey;
+    width: 50%;
+    height: 140px;
+    border-radius: 5%;
+    background-image: linear-gradient(45deg, grey, transparent);
+    margin: 15px;
+    text-align: center;
+    padding: 30px;
+
+  }
   .skills {
-    font-size: 35px;
+    /* font-size: 35px; */
     width: 100%;
     display: flex;
     justify-content: center;
@@ -48,6 +60,9 @@
   
   .skills h1 {
     color: #3e497a;
+    margin-bottom: 10px;
+    margin-top: 60px;
+    font-size: xxx-large;
   }
   
   .skills .list {
@@ -60,7 +75,8 @@
   }
   
   .skills h2{
-    margin-bottom: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
   }
 
   .img{

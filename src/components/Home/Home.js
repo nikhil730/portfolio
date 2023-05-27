@@ -24,7 +24,33 @@ const Home = () => {
       </div>
       <div className="skills">
         <h1> Skills</h1>
-        <ol className="list">
+        <div className="grid top">
+          <div className="item frontend">
+            <h2> Front-End</h2>
+            <span>
+              ReactJS, Redux, HTML, CSS, NPM, BootStrap, MaterialUI,
+              StyledComponents
+            </span>
+          </div>
+          <div className="item backend">
+            <h2>Back-End</h2>
+            <span>NodeJS, ExpressJS, MySQL, MongoDB</span>
+          </div>
+        </div>
+        <div className="grid bottom">
+          <div className="item language">
+            <h2> Front-End</h2>
+            <span>
+              ReactJS, Redux, HTML, CSS, NPM, BootStrap, MaterialUI,
+              StyledComponents
+            </span>
+          </div>
+          <div className="item technical">
+            <h2>Back-End</h2>
+            <span>NodeJS, ExpressJS, MySQL, MongoDB</span>
+          </div>
+        </div>
+        {/* <ol className="list">
           <li className="item">
             <h2> Front-End</h2>
             <span>
@@ -47,7 +73,7 @@ const Home = () => {
               Systems, OOPS
             </span>
           </li>
-        </ol>
+        </ol> */}
       </div>
     </div>
   );

@@ -22,7 +22,7 @@ function Footer() {
           <LinkedInIcon />
         </Link>
       </div>
-      <p className="name"> &copy; Nikhil</p>
+      <p className="name"> &copy; Nikhil Bhalla</p>
     </div>
   );
 }

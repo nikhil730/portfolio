@@ -20,10 +20,16 @@
     border: 1px solid lightgray;
     box-shadow: 5px 5px 6px;
     border-radius: 10px;
-    padding: 40px;
+    padding: 50px;
+    height: 250px;
   }
   .name{
 margin-top: 10px;
+height: 30px;
+  }
+
+  .email{
+    height: 30px;
   }
   .message{
     margin-top: 20px;
