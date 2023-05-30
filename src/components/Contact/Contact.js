@@ -49,7 +49,7 @@ const Contact = () => {
     } else {
       alert("Fill all the details.");
     }
-    e.target.reset();
+    document.getElementById("form_id").reset();
   };
 
   return (
@@ -57,7 +57,7 @@ const Contact = () => {
       <div className="heading">
         Want to Work/Code together on building great projects?
       </div>
-      <form className="form">
+      <form className="form" id="form_id">
         <div className="email">
           <label className="label" for="emailinput">
             Email{" "}
