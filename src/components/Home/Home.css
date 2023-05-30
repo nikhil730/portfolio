@@ -77,8 +77,35 @@
   .skills h2{
     padding: 10px;
     margin-bottom: 10px;
+    
   }
-
+  .s{
+    /* background-color: grey; */
+    border-radius: 25%;
+    padding: 10px;
+    /* font-size: 50px; */
+    color: #3e497a;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    margin-top: 60px;
+    font-size: xxx-large;
+  }
+  /* custom aos animation */
+  /* @keyframes animationss{
+    from {padding: 0px; transform: rotate(0deg); font-size: 0px;}
+    to {padding: 10px; transform: rotate(360deg); font-size: 50px;}
+  } */
+  [data-aos="skill_text"]{
+    padding: 0px;
+    transform:rotate(0deg);
+    font-size: 0px;
+    &.aos-animate{
+      padding: 10px;
+      transform: rotate(360deg);
+      font-size: 50px;
+    }
+    /* animation: animationss 3s linear 2s infinite alternate; */
+  }
   .img{
     height: 250px;
     object-fit: cover;

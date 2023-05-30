@@ -5,7 +5,15 @@ import GithubIcon from "@material-ui/icons/GitHub";
 import { Link } from "react-router-dom";
 import image from "./homepic.svg";
 import "./Home.css";
+import Aos from "aos";
+import { useEffect } from "react";
+import "aos/dist/aos.css";
+
 const Home = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
+
   return (
     <div className="home">
       <div className="about">
@@ -23,31 +31,65 @@ const Home = () => {
         <img className="img" src={image} alt="error"></img>
       </div>
       <div className="skills">
-        <h1> Skills</h1>
+        <div
+          className="s"
+          data-aos="skill_text"
+          data-aos-delay="500"
+          data-aos-duration="1500"
+          data-aos-once="true"
+          data-aos-offset="50" //trigger animation sooner or later
+        >
+          {" "}
+          Skills
+        </div>
         <div className="grid top">
-          <div className="item frontend">
+          <div
+            className="item frontend"
+            data-aos="fade-down-right"
+            data-aos-delay="500"
+            data-aos-duration="1000"
+            data-aos-once="true"
+          >
             <h2> Front-End</h2>
             <span>
               ReactJS, Redux, HTML, CSS, NPM, BootStrap, MaterialUI,
               StyledComponents
             </span>
           </div>
-          <div className="item backend">
+          <div
+            className="item backend"
+            data-aos="fade-down-left"
+            data-aos-delay="500"
+            data-aos-duration="1000"
+            data-aos-once="true"
+          >
             <h2>Back-End</h2>
             <span>NodeJS, ExpressJS, MySQL, MongoDB</span>
           </div>
         </div>
         <div className="grid bottom">
-          <div className="item language">
-            <h2> Front-End</h2>
-            <span>
-              ReactJS, Redux, HTML, CSS, NPM, BootStrap, MaterialUI,
-              StyledComponents
-            </span>
+          <div
+            className="item language"
+            data-aos="fade-up-right"
+            data-aos-delay="500"
+            data-aos-duration="1000"
+            data-aos-once="true"
+          >
+            <h2> Languages</h2>
+            <span>C++, JavaScript, Python</span>
           </div>
-          <div className="item technical">
-            <h2>Back-End</h2>
-            <span>NodeJS, ExpressJS, MySQL, MongoDB</span>
+          <div
+            className="item technical"
+            data-aos="fade-up-left"
+            data-aos-delay="500"
+            data-aos-duration="1000"
+            data-aos-once="true"
+          >
+            <h2>Technical-Skills</h2>
+            <span>
+              Database Managment Systems, Data Structures, Algorithm Design and
+              Analysis, OOPS, GitHub & Git
+            </span>
           </div>
         </div>
         {/* <ol className="list">

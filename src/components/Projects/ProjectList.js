@@ -1,14 +1,14 @@
-import Proj1 from "../../assets/proj1.jpg";
+import yourspace from "../../assets/yourspace.png";
 import Expresss from "../../assets/expresss.png";
 import todolist from "../../assets/todolist.png";
 
 export const ProjectList = [
   {
     name: "YourSpace (Notepade)",
-    image: Proj1,
+    image: yourspace,
     skills: "React, HTML, CSS",
-    github: "",
-    link: "",
+    github: "https://github.com/nikhil730/yourspace",
+    link: "https://nikhil730.github.io/yourspace/",
   },
   {
     name: "Expresss (Social Media Website)",
