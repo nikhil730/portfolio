@@ -53,13 +53,16 @@ const Nav = () => {
         </Link>
       </div>
       <div className="prompt">
-        <Link to="https://www.linkedin.com/in/nikhil-bhalla-116704206/">
+        <Link
+          to="https://www.linkedin.com/in/nikhil-bhalla-116704206/"
+          target="_blank"
+        >
           <LinkedInIcon />
         </Link>
         <Link to="/contact">
           <EmailIcon />
         </Link>
-        <Link to="https://github.com/nikhil730">
+        <Link to="https://github.com/nikhil730" target="_blank">
           <GithubIcon />
         </Link>
       </div>
