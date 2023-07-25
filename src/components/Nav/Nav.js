@@ -44,7 +44,7 @@ const Nav = () => {
           Experience{" "}
         </Link>
         <Link
-          to="https://drive.google.com/file/d/1xRz65utyOq50thkZlo6OTR5XCRdUfpko/view?usp=share_link"
+          to="https://drive.google.com/file/d/1Bwai7Cl5kxuOvh6Asn_K7UZLuFdX1L_c/view?usp=sharing"
           target="_blanck"
         >
           <Button variant="contained" color="primary" className="resume">
