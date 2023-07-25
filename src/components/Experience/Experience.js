@@ -38,7 +38,7 @@ function Experience() {
 
           <p> Electrical Engineering</p>
         </VerticalTimelineElement>
-        {/* <VerticalTimelineElement
+        {/* {/* <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="2018 - 2020"
           iconStyle={{ background: "#e9d35b", color: "#fff" }}
@@ -51,25 +51,36 @@ function Experience() {
             San Francisco, CA
           </h4>
           <p>Developed the backend infrastructure for 3 projects.</p>
-        </VerticalTimelineElement>
+        </VerticalTimelineElement> */}
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2020 - present"
+          date="June 2023 - July 2023"
           iconStyle={{ background: "#e9d35b", color: "#fff" }}
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Full Stack Engineer - Twitch
+            SDE Intern - Aumyaa Consulting Services LLP
           </h3>
-          <h4 className="vertical-timeline-element-subtitle">
-            San Francisco, CA
-          </h4>
+          <h4 className="vertical-timeline-element-subtitle">Remote</h4>
           <p>
-            Helped the team launch 2 major features by working both in the front
-            end and back end.
+            <ul>
+              <li>
+                Worked on AUM-ERM tool, automating and adding ISO service used
+                in doing audits.
+              </li>
+              {/* <li>
+                Created a No code tool for Auditors, where they can upload an
+                excel-sheet and the data fills the table on which they can work
+                and then download the sheet
+              </li> */}
+              <li>
+                Integrated OpenAi with ERP platform for various Policy
+                Generation
+              </li>
+            </ul>
           </p>
-        </VerticalTimelineElement> */}
+        </VerticalTimelineElement>
       </VerticalTimeline>
     </div>
   );
