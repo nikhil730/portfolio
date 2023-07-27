@@ -4,11 +4,11 @@ import todolist from "../../assets/todolist.png";
 
 export const ProjectList = [
   {
-    name: "YourSpace (Notepade)",
-    image: yourspace,
-    skills: "React, HTML, CSS",
-    github: "https://github.com/nikhil730/yourspace",
-    link: "https://nikhil730.github.io/yourspace/",
+    name: "DocFinder App",
+    image: todolist,
+    skills: "React, Node.js, MongoDB, Express",
+    github: "https://github.com/nikhil730/DocFinder",
+    link: "https://docfinder-wwjg.onrender.com",
   },
   {
     name: "Expresss (Social Media Website)",
@@ -16,6 +16,13 @@ export const ProjectList = [
     skills: "React, Node.js, MongoDB, Express",
     github: "https://github.com/nikhil730/Expresss",
     link: "https://expresss-mka4.onrender.com/",
+  },
+  {
+    name: "YourSpace (Notepade)",
+    image: yourspace,
+    skills: "React, HTML, CSS",
+    github: "https://github.com/nikhil730/yourspace",
+    link: "https://nikhil730.github.io/yourspace/",
   },
 
   {

@@ -33,11 +33,11 @@ const Home = () => {
       <div className="skills">
         <div
           className="s"
-          data-aos="skill_text"
-          data-aos-delay="500"
-          data-aos-duration="1500"
-          data-aos-once="true"
-          data-aos-offset="50" //trigger animation sooner or later
+          // data-aos="skill_text"
+          // data-aos-delay="500"
+          // data-aos-duration="1500"
+          // data-aos-once="true"
+          // data-aos-offset="50" //trigger animation sooner or later
         >
           {" "}
           Skills
